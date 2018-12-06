@@ -1,0 +1,41 @@
+2018-12-06 23:17:26.838 +06:00 [INF] Starting web host
+2018-12-06 23:17:27.102 +06:00 [INF] User profile is available. Using 'C:\Users\TanvirArjel\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-12-06 23:17:27.380 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:44379/  
+2018-12-06 23:17:27.481 +06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action LoggingWithSerilogInAspNetCore.Controllers.HomeController.Index (LoggingWithSerilogInAspNetCore)
+2018-12-06 23:17:27.491 +06:00 [INF] Executing action method LoggingWithSerilogInAspNetCore.Controllers.HomeController.Index (LoggingWithSerilogInAspNetCore) - Validation state: "Valid"
+2018-12-06 23:17:27.497 +06:00 [INF] Executed action method LoggingWithSerilogInAspNetCore.Controllers.HomeController.Index (LoggingWithSerilogInAspNetCore), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.5906ms.
+2018-12-06 23:17:27.519 +06:00 [INF] Executing ViewResult, running view Index.
+2018-12-06 23:17:27.626 +06:00 [INF] Executed ViewResult - view Index executed in 120.8529ms.
+2018-12-06 23:17:27.626 +06:00 [INF] Executed action LoggingWithSerilogInAspNetCore.Controllers.HomeController.Index (LoggingWithSerilogInAspNetCore) in 145.1201ms
+2018-12-06 23:17:27.640 +06:00 [INF] Request finished in 261.2279ms 200 text/html; charset=utf-8
+2018-12-06 23:17:30.131 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:44379/Home/Contact  
+2018-12-06 23:17:30.133 +06:00 [INF] Route matched with {action = "Contact", controller = "Home"}. Executing action LoggingWithSerilogInAspNetCore.Controllers.HomeController.Contact (LoggingWithSerilogInAspNetCore)
+2018-12-06 23:17:30.133 +06:00 [INF] Executing action method LoggingWithSerilogInAspNetCore.Controllers.HomeController.Contact (LoggingWithSerilogInAspNetCore) - Validation state: "Valid"
+2018-12-06 23:17:30.134 +06:00 [ERR] Exception thrown!
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(ReadOnlySpan`1 str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(ReadOnlySpan`1 s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(ReadOnlySpan`1 s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt16(String value)
+   at LoggingWithSerilogInAspNetCore.Controllers.HomeController.Contact() in D:\LoggingWithSerilogInAspNetCore\LoggingWithSerilogInAspNetCore\Controllers\HomeController.cs:line 35
+2018-12-06 23:17:30.160 +06:00 [INF] Executed action method LoggingWithSerilogInAspNetCore.Controllers.HomeController.Contact (LoggingWithSerilogInAspNetCore), returned result Microsoft.AspNetCore.Mvc.ViewResult in 26.7456ms.
+2018-12-06 23:17:30.162 +06:00 [INF] Executing ViewResult, running view Contact.
+2018-12-06 23:17:30.166 +06:00 [INF] Executed ViewResult - view Contact executed in 5.9309ms.
+2018-12-06 23:17:30.166 +06:00 [INF] Executed action LoggingWithSerilogInAspNetCore.Controllers.HomeController.Contact (LoggingWithSerilogInAspNetCore) in 33.1868ms
+2018-12-06 23:17:30.166 +06:00 [INF] Request finished in 35.4338ms 200 text/html; charset=utf-8
+2018-12-06 23:17:30.607 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:44379/Home/About  
+2018-12-06 23:17:30.608 +06:00 [INF] Route matched with {action = "About", controller = "Home"}. Executing action LoggingWithSerilogInAspNetCore.Controllers.HomeController.About (LoggingWithSerilogInAspNetCore)
+2018-12-06 23:17:30.608 +06:00 [INF] Executing action method LoggingWithSerilogInAspNetCore.Controllers.HomeController.About (LoggingWithSerilogInAspNetCore) - Validation state: "Valid"
+2018-12-06 23:17:30.608 +06:00 [INF] Executed action method LoggingWithSerilogInAspNetCore.Controllers.HomeController.About (LoggingWithSerilogInAspNetCore), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.1665ms.
+2018-12-06 23:17:30.610 +06:00 [INF] Executing ViewResult, running view About.
+2018-12-06 23:17:30.613 +06:00 [INF] Executed ViewResult - view About executed in 4.4975000000000005ms.
+2018-12-06 23:17:30.613 +06:00 [INF] Executed action LoggingWithSerilogInAspNetCore.Controllers.HomeController.About (LoggingWithSerilogInAspNetCore) in 4.964ms
+2018-12-06 23:17:30.613 +06:00 [INF] Request finished in 6.3461ms 200 text/html; charset=utf-8
+2018-12-06 23:17:30.944 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:44379/  
+2018-12-06 23:17:30.944 +06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action LoggingWithSerilogInAspNetCore.Controllers.HomeController.Index (LoggingWithSerilogInAspNetCore)
+2018-12-06 23:17:30.944 +06:00 [INF] Executing action method LoggingWithSerilogInAspNetCore.Controllers.HomeController.Index (LoggingWithSerilogInAspNetCore) - Validation state: "Valid"
+2018-12-06 23:17:30.944 +06:00 [INF] Executed action method LoggingWithSerilogInAspNetCore.Controllers.HomeController.Index (LoggingWithSerilogInAspNetCore), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.006ms.
+2018-12-06 23:17:30.945 +06:00 [INF] Executing ViewResult, running view Index.
+2018-12-06 23:17:30.945 +06:00 [INF] Executed ViewResult - view Index executed in 0.646ms.
+2018-12-06 23:17:30.945 +06:00 [INF] Executed action LoggingWithSerilogInAspNetCore.Controllers.HomeController.Index (LoggingWithSerilogInAspNetCore) in 0.8383ms
+2018-12-06 23:17:30.945 +06:00 [INF] Request finished in 1.3207ms 200 text/html; charset=utf-8

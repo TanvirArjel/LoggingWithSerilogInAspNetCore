@@ -1,0 +1,78 @@
+2018-11-29 18:43:32.471 +06:00 [INF] Starting web host
+2018-11-29 18:43:32.724 +06:00 [INF] User profile is available. Using 'C:\Users\TanvirArjel\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-11-29 18:43:33.047 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:44379/  
+2018-11-29 18:43:33.150 +06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action LoggingWithSerilogInAspNetCore.Controllers.HomeController.Index (LoggingWithSerilogInAspNetCore)
+2018-11-29 18:43:33.162 +06:00 [INF] Executing action method LoggingWithSerilogInAspNetCore.Controllers.HomeController.Index (LoggingWithSerilogInAspNetCore) - Validation state: "Valid"
+2018-11-29 18:43:33.168 +06:00 [INF] Executed action method LoggingWithSerilogInAspNetCore.Controllers.HomeController.Index (LoggingWithSerilogInAspNetCore), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.4511ms.
+2018-11-29 18:43:33.190 +06:00 [INF] Executing ViewResult, running view Index.
+2018-11-29 18:43:33.301 +06:00 [INF] Executed ViewResult - view Index executed in 125.3446ms.
+2018-11-29 18:43:33.302 +06:00 [INF] Executed action LoggingWithSerilogInAspNetCore.Controllers.HomeController.Index (LoggingWithSerilogInAspNetCore) in 151.2767ms
+2018-11-29 18:43:33.308 +06:00 [INF] Request finished in 263.26ms 200 text/html; charset=utf-8
+2018-11-29 18:43:33.413 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:44379/lib/bootstrap/dist/css/bootstrap.css  
+2018-11-29 18:43:33.417 +06:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.css was not modified
+2018-11-29 18:43:33.420 +06:00 [INF] Request finished in 7.3243ms 304 text/css
+2018-11-29 18:43:33.421 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:44379/css/site.css  
+2018-11-29 18:43:33.421 +06:00 [INF] The file /css/site.css was not modified
+2018-11-29 18:43:33.421 +06:00 [INF] Request finished in 0.5045ms 304 text/css
+2018-11-29 18:43:33.427 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:44379/images/banner1.svg  
+2018-11-29 18:43:33.428 +06:00 [INF] The file /images/banner1.svg was not modified
+2018-11-29 18:43:33.428 +06:00 [INF] Request finished in 0.4741ms 304 image/svg+xml
+2018-11-29 18:43:33.433 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:44379/images/banner2.svg  
+2018-11-29 18:43:33.433 +06:00 [INF] The file /images/banner2.svg was not modified
+2018-11-29 18:43:33.433 +06:00 [INF] Request finished in 0.28ms 304 image/svg+xml
+2018-11-29 18:43:33.449 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:44379/images/banner3.svg  
+2018-11-29 18:43:33.449 +06:00 [INF] The file /images/banner3.svg was not modified
+2018-11-29 18:43:33.449 +06:00 [INF] Request finished in 0.2658ms 304 image/svg+xml
+2018-11-29 18:43:33.462 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:44379/lib/jquery/dist/jquery.js  
+2018-11-29 18:43:33.462 +06:00 [INF] The file /lib/jquery/dist/jquery.js was not modified
+2018-11-29 18:43:33.462 +06:00 [INF] Request finished in 0.2841ms 304 application/javascript
+2018-11-29 18:43:33.492 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:44379/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+2018-11-29 18:43:33.493 +06:00 [INF] The file /js/site.js was not modified
+2018-11-29 18:43:33.493 +06:00 [INF] Request finished in 1.2785ms 304 application/javascript
+2018-11-29 18:43:33.493 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:44379/lib/bootstrap/dist/js/bootstrap.js  
+2018-11-29 18:43:33.493 +06:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.js was not modified
+2018-11-29 18:43:33.493 +06:00 [INF] Request finished in 0.1537ms 304 application/javascript
+2018-11-29 18:43:33.560 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:44379/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2  
+2018-11-29 18:43:33.561 +06:00 [INF] The file /lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2 was not modified
+2018-11-29 18:43:33.561 +06:00 [INF] Request finished in 1.1042ms 304 font/woff2
+2018-11-29 18:43:40.213 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:44379/  
+2018-11-29 18:43:40.213 +06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action LoggingWithSerilogInAspNetCore.Controllers.HomeController.Index (LoggingWithSerilogInAspNetCore)
+2018-11-29 18:43:40.214 +06:00 [INF] Executing action method LoggingWithSerilogInAspNetCore.Controllers.HomeController.Index (LoggingWithSerilogInAspNetCore) - Validation state: "Valid"
+2018-11-29 18:43:40.214 +06:00 [INF] Executed action method LoggingWithSerilogInAspNetCore.Controllers.HomeController.Index (LoggingWithSerilogInAspNetCore), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.3942ms.
+2018-11-29 18:43:40.215 +06:00 [INF] Executing ViewResult, running view Index.
+2018-11-29 18:43:40.216 +06:00 [INF] Executed ViewResult - view Index executed in 1.249ms.
+2018-11-29 18:43:40.216 +06:00 [INF] Executed action LoggingWithSerilogInAspNetCore.Controllers.HomeController.Index (LoggingWithSerilogInAspNetCore) in 2.3977ms
+2018-11-29 18:43:40.216 +06:00 [INF] Request finished in 2.9034ms 200 text/html; charset=utf-8
+2018-11-29 18:43:40.701 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:44379/Home/About  
+2018-11-29 18:43:40.702 +06:00 [INF] Route matched with {action = "About", controller = "Home"}. Executing action LoggingWithSerilogInAspNetCore.Controllers.HomeController.About (LoggingWithSerilogInAspNetCore)
+2018-11-29 18:43:40.702 +06:00 [INF] Executing action method LoggingWithSerilogInAspNetCore.Controllers.HomeController.About (LoggingWithSerilogInAspNetCore) - Validation state: "Valid"
+2018-11-29 18:43:40.702 +06:00 [INF] Executed action method LoggingWithSerilogInAspNetCore.Controllers.HomeController.About (LoggingWithSerilogInAspNetCore), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.1759ms.
+2018-11-29 18:43:40.704 +06:00 [INF] Executing ViewResult, running view About.
+2018-11-29 18:43:40.708 +06:00 [INF] Executed ViewResult - view About executed in 5.3688ms.
+2018-11-29 18:43:40.708 +06:00 [INF] Executed action LoggingWithSerilogInAspNetCore.Controllers.HomeController.About (LoggingWithSerilogInAspNetCore) in 5.7687ms
+2018-11-29 18:43:40.708 +06:00 [INF] Request finished in 7.2039ms 200 text/html; charset=utf-8
+2018-11-29 18:43:41.069 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:44379/Home/Contact  
+2018-11-29 18:43:41.070 +06:00 [INF] Route matched with {action = "Contact", controller = "Home"}. Executing action LoggingWithSerilogInAspNetCore.Controllers.HomeController.Contact (LoggingWithSerilogInAspNetCore)
+2018-11-29 18:43:41.070 +06:00 [INF] Executing action method LoggingWithSerilogInAspNetCore.Controllers.HomeController.Contact (LoggingWithSerilogInAspNetCore) - Validation state: "Valid"
+2018-11-29 18:43:41.070 +06:00 [ERR] Exception thrown!
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(ReadOnlySpan`1 str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(ReadOnlySpan`1 s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(ReadOnlySpan`1 s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt16(String value)
+   at LoggingWithSerilogInAspNetCore.Controllers.HomeController.Contact() in D:\LoggingWithSerilogInAspNetCore\LoggingWithSerilogInAspNetCore\Controllers\HomeController.cs:line 36
+2018-11-29 18:43:41.095 +06:00 [INF] Executed action method LoggingWithSerilogInAspNetCore.Controllers.HomeController.Contact (LoggingWithSerilogInAspNetCore), returned result Microsoft.AspNetCore.Mvc.ViewResult in 25.286900000000003ms.
+2018-11-29 18:43:41.097 +06:00 [INF] Executing ViewResult, running view Contact.
+2018-11-29 18:43:41.099 +06:00 [INF] Executed ViewResult - view Contact executed in 4.3826ms.
+2018-11-29 18:43:41.100 +06:00 [INF] Executed action LoggingWithSerilogInAspNetCore.Controllers.HomeController.Contact (LoggingWithSerilogInAspNetCore) in 29.9269ms
+2018-11-29 18:43:41.100 +06:00 [INF] Request finished in 31.1259ms 200 text/html; charset=utf-8
+2018-11-29 18:43:41.892 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:44379/  
+2018-11-29 18:43:41.892 +06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing action LoggingWithSerilogInAspNetCore.Controllers.HomeController.Index (LoggingWithSerilogInAspNetCore)
+2018-11-29 18:43:41.892 +06:00 [INF] Executing action method LoggingWithSerilogInAspNetCore.Controllers.HomeController.Index (LoggingWithSerilogInAspNetCore) - Validation state: "Valid"
+2018-11-29 18:43:41.892 +06:00 [INF] Executed action method LoggingWithSerilogInAspNetCore.Controllers.HomeController.Index (LoggingWithSerilogInAspNetCore), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.005ms.
+2018-11-29 18:43:41.893 +06:00 [INF] Executing ViewResult, running view Index.
+2018-11-29 18:43:41.893 +06:00 [INF] Executed ViewResult - view Index executed in 0.45020000000000004ms.
+2018-11-29 18:43:41.893 +06:00 [INF] Executed action LoggingWithSerilogInAspNetCore.Controllers.HomeController.Index (LoggingWithSerilogInAspNetCore) in 0.633ms
+2018-11-29 18:43:41.893 +06:00 [INF] Request finished in 0.9598ms 200 text/html; charset=utf-8
+2018-11-29 18:43:47.166 +06:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:14606/iisintegration  0
+2018-11-29 18:43:47.166 +06:00 [INF] Request finished in 0.1999ms 202 
