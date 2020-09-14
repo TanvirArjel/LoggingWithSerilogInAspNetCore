@@ -29,15 +29,15 @@ namespace LoggingWithSerilogInAspNetCore.Controllers
 
         public IActionResult Contact()
         {
-
-            try
-            {
-                Convert.ToInt16("He");
-            }
-            catch (Exception exception)
-            {
-               _logger.LogError(exception,"Exception thrown!");
-            }
+            Convert.ToInt16("He");
+            ////try
+            ////{
+            ////    Convert.ToInt16("He");
+            ////}
+            ////catch (Exception exception)
+            ////{
+            ////   _logger.LogError(exception,"Exception thrown!");
+            ////}
             ViewData["Message"] = "Your contact page.";
 
             return View();
