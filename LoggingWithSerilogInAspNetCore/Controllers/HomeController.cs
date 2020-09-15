@@ -29,6 +29,7 @@ namespace LoggingWithSerilogInAspNetCore.Controllers
 
         public IActionResult Contact()
         {
+            _logger.LogWarning("This is  warning");
             Convert.ToInt16("He");
             ////try
             ////{
@@ -38,6 +39,7 @@ namespace LoggingWithSerilogInAspNetCore.Controllers
             ////{
             ////   _logger.LogError(exception,"Exception thrown!");
             ////}
+            ///
             ViewData["Message"] = "Your contact page.";
 
             return View();
